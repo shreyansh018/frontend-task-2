@@ -66,7 +66,7 @@ function Form() {
         >
           <Typography>Income & Loan Details</Typography>
           <Grid container my={2} rowSpacing={2} columnSpacing={30}>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={10} md={6}>
               <Stack p={2}>Annual Income</Stack>
               <TextField
                 color="secondary"
@@ -81,7 +81,7 @@ function Form() {
                 }}
               />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={10} md={6}>
               <Stack p={2}>Down Payment</Stack>
               <TextField
                 fullWidth
@@ -95,11 +95,11 @@ function Form() {
                 }}
               />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={10} md={6}>
               <Stack p={2}>Loan Term (Years)</Stack>
               <TextField color="secondary" fullWidth />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={10} md={6}>
               <Stack p={2}>Annual Interest Rate On Mortgage</Stack>
               <TextField
                 fullWidth
@@ -132,7 +132,7 @@ function Form() {
         </FormControl>
 
         <Grid container my={2} rowSpacing={2} columnSpacing={30}>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={10} md={6}>
             <Stack p={2}>Car loan or lease payment(s)</Stack>
             <TextField
               color="secondary"
@@ -147,7 +147,7 @@ function Form() {
               }}
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={10} md={6}>
             <Stack p={2}>Student loan payment(s)</Stack>
             <TextField
               fullWidth
@@ -161,7 +161,7 @@ function Form() {
               }}
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={10} md={6}>
             <Stack p={2}>Minimum credit card payment(s)</Stack>
             <TextField
               fullWidth
@@ -175,7 +175,7 @@ function Form() {
               }}
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={10} md={6}>
             <Stack p={2}>Other Payments</Stack>
             <TextField
               fullWidth
@@ -203,7 +203,7 @@ function Form() {
         >
           <Typography>Monthly Payments</Typography>
           <Grid container my={2} rowSpacing={2} columnSpacing={30}>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={10} md={6}>
               <Stack p={2}>Car loan or lease payment(s)</Stack>
               <TextField
                 color="secondary"
@@ -218,7 +218,7 @@ function Form() {
                 }}
               />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={10} md={6}>
               <Stack p={2}>Student loan payment(s)</Stack>
               <TextField
                 fullWidth
@@ -232,7 +232,7 @@ function Form() {
                 }}
               />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={10} md={6}>
               <Stack p={2}>Minimum credit card payment(s)</Stack>
               <TextField
                 fullWidth
