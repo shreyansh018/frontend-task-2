@@ -54,7 +54,7 @@ const theme2 = createTheme({
 
 function Form() {
   return (
-    <Stack padding={{ xs: 0, sm: 3, md: 5 }}>
+    <Stack padding={{ xs: 0, sm: 5, md: 5 }}>
       <ThemeProvider theme={theme}>
         <Stack
           paddingTop={2}
@@ -138,7 +138,6 @@ function Form() {
           <Grid item xs={12} sm={10} md={6}>
             <Stack p={2}>Car loan or lease payment(s)</Stack>
             <TextField
-              color="secondary"
               variant="outlined"
               fullWidth
               InputProps={{
@@ -154,7 +153,6 @@ function Form() {
             <Stack p={2}>Student loan payment(s)</Stack>
             <TextField
               fullWidth
-              color="secondary"
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
@@ -168,7 +166,6 @@ function Form() {
             <Stack p={2}>Minimum credit card payment(s)</Stack>
             <TextField
               fullWidth
-              color="secondary"
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
@@ -182,7 +179,6 @@ function Form() {
             <Stack p={2}>Other Payments</Stack>
             <TextField
               fullWidth
-              color="secondary"
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
