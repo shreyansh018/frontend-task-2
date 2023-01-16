@@ -68,8 +68,8 @@ function Form() {
           <Grid container my={2} rowSpacing={2} columnSpacing={30}>
             <Grid
               item
-              marginLeft={{ xs: 1, sm: 0, md: 0 }}
-              marginRight={{ xs: 1, sm: 0, md: 0 }}
+              marginLeft={{ xs: 1.5, sm: 0, md: 0 }}
+              marginRight={{ xs: 1.5, sm: 0, md: 0 }}
               xs={12}
               sm={10}
               md={6}
