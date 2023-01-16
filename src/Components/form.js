@@ -54,13 +54,13 @@ const theme2 = createTheme({
 
 function Form() {
   return (
-    <Stack padding={{ xs: 0, sm: 5, md: 5 }}>
+    <Stack padding={{ xs: 1, sm: 5, md: 5 }}>
       <ThemeProvider theme={theme}>
         <Stack
           paddingTop={2}
           bgcolor="primary.main"
-          paddingLeft={{ xs: 0, sm: 2, md: 5 }}
-          paddingRight={{ xs: 0, sm: 2, md: 5 }}
+          paddingLeft={{ xs: 0, sm: 3, md: 5 }}
+          paddingRight={{ xs: 0, sm: 3, md: 5 }}
         >
           <Typography>Income & Loan Details</Typography>
           <Grid container my={2} rowSpacing={2} columnSpacing={30}>
