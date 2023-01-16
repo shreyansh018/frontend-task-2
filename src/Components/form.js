@@ -1,6 +1,5 @@
 import {
   createTheme,
-  FormControl,
   FormControlLabel,
   Grid,
   InputAdornment,
